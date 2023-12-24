@@ -1,3 +1,9 @@
+### Introduction
+```
+Methods to transform Data
+Methods to draw on web pages
+```
+
 ### Data to DOM Elements 
 
 Data points to DOM
