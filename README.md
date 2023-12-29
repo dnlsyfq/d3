@@ -4,6 +4,34 @@ Methods to transform Data
 Methods to draw on web pages
 ```
 
+### D3 APIs
+
+1. Transform Data
+```
+d3.cross
+d3.max
+```
+
+2. Map data to Image Space
+```
+d3.scaleLinear
+d3.scaleTime
+```
+
+3. Compute Layouts and Paths
+```
+d3.path
+d3.treemap
+```
+
+4. draw the chart
+```
+d3.select
+d3.append
+```
+
+
+
 ### Data to DOM Elements 
 
 Data points to DOM
