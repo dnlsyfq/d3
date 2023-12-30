@@ -30,6 +30,15 @@ d3.select
 d3.append
 ```
 
+```
+d3.select("HTML TAG | ID | CLASS | CSS SELECTOR ")
+d3.selectAll(selector)
+
+let selection = d3.select("p").select(".main")
+let selection = d3.selectAll("p").selectAll(".main")
+
+
+```
 
 
 ### Data to DOM Elements 
