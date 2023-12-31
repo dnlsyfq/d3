@@ -38,6 +38,10 @@ let selection = d3.select("p").select(".main")
 let selection = d3.selectAll("p").selectAll(".main")
 
 
+d3.selectAll('p').style('color','white'); // select all p element
+d3.selectAll('#p1').style('color','white'); // select an individual p
+d3.selectAll(".text-label").style('color','white'); // select all same class of elements
+
 ```
 
 
