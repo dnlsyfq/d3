@@ -47,7 +47,26 @@ d3.selectAll(".text-label").style('color','white'); // select all same class of 
 
 ### Data to DOM Elements 
 
-Data points to DOM
+Data points to DOM. .data() method takes an array of any type as its parameter and binds a datum to each element in the selection returned by .selectAll():
+
+```
+// If the n is the length of the dataset passed into .data() and there is an equal or greater number of <p> elements, then every step that follows .data() in the chain is executed n number of times.
+
+
+let dataset = [55,34,23,22,59];
+d3.selectAll("p")
+   .data(dataset);
+
+```
+
+### Changing Content
+
+```
+let selection = d3.select("p")
+
+selection.text('this is content')
+selection.html("this <b>content</b> ")
+```
 
 ### SVG
 
